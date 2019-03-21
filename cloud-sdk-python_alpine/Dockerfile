@@ -2,6 +2,8 @@ FROM google/cloud-sdk:alpine
 
 RUN gcloud components install kubectl
 
+RUN apk add --no-cache build-base
+
 # ensure local python is preferred over distribution python
 ENV PATH /usr/local/bin:$PATH
 
