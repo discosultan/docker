@@ -1,2 +1,0 @@
-# docker
-Collection of Dockerfiles
